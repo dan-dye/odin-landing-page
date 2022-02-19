@@ -10,8 +10,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-body * {
+body > * {
   flex: auto;
+  padding: 0 250px;
 }
 
 .section-main, footer { 
@@ -41,15 +42,25 @@ body * {
 
 nav {
   display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
 }
 
-nav h1 {
+nav > h1 {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 900;
 }
 
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
 
+nav > ul > li {
+  padding: 0 16px;
+}
 
 aside.quote {
   background-color: #e5e7eb;
