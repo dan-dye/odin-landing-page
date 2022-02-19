@@ -1,0 +1,15 @@
+html {
+  min-height: 100vh;
+}
+
+.section-main, footer { 
+  background-color: #1F2937;
+}
+
+aside.quote {
+  background-color: #e5e7eb;
+}
+
+section.sign-up {
+  background-color: #3882F6;
+}
