@@ -15,6 +15,11 @@ body > * {
   padding: 0 250px;
 }
 
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
 .section-main, footer { 
   background-color: #1F2937;
   color: #e5E7EB;
@@ -23,6 +28,7 @@ body > * {
 .section-main {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   font-size: 18px;
 }
 
@@ -30,14 +36,6 @@ body > * {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
-}
-
-.section-main button {
-  background-color: #3882F6;
-  border: 0;
-  border-radius: 12px;
-  padding: 8px 16px;
-  color: #f9faf8;
 }
 
 nav {
@@ -60,6 +58,34 @@ nav > ul {
 
 nav > ul > li {
   padding: 0 16px;
+}
+
+.section-main > main {
+  display: flex;
+  padding-bottom: 96px;
+}
+
+main > .hero-text {
+  padding-right: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text > p {
+  padding-bottom: 16px;
+}
+
+.hero-text > button {
+  width: 96px;
+  flex: 0 0 auto;
+  background-color: #3882F6;
+  border: 0;
+  color: #f9faf8;
+}
+
+main > img {
+  max-width: 450px;
 }
 
 aside.quote {
