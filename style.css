@@ -63,7 +63,7 @@ nav > ul > li {
 main {
   display: flex;
   padding-bottom: 96px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 main > .hero-text {
@@ -75,6 +75,7 @@ main > .hero-text {
 
 .hero-text > p {
   padding-bottom: 16px;
+  max-width: 350px;
 }
 
 .hero-text > button {
