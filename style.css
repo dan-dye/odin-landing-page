@@ -60,9 +60,10 @@ nav > ul > li {
   padding: 0 16px;
 }
 
-.section-main > main {
+main {
   display: flex;
   padding-bottom: 96px;
+  justify-content: space-between;
 }
 
 main > .hero-text {
@@ -85,7 +86,7 @@ main > .hero-text {
 }
 
 main > img {
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .section-information {
