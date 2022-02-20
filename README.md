@@ -1,6 +1,6 @@
 # odin-landing-page
 
-A sample landing page made as part of The Odin Project Foundations course. The goal of this project was to practice recreating Flexbox CSS layout. 
+A sample landing page made as part of The Odin Project Foundations course. The goal of this project was to practice recreating a flexbox layout. 
 
 
 Photo Credit -
