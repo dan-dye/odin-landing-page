@@ -116,8 +116,19 @@ main > img {
   padding-bottom: 8px;
 }
 
-aside.quote {
+.quote {
   background-color: #e5e7eb;
+  padding: 80px 300px;
+}
+
+.quote-text {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.quote-attribution {
+  font-weight: bold;
+  text-align: right;
 }
 
 section.sign-up {
